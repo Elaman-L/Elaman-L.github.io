@@ -94,6 +94,31 @@ body {
   padding: 0 15px;
 }
 
+.btn-visible {
+  opacity: 1;
+  height: auto;
+  transform: translateY(0);
+  transition: opacity .3s ease, height .3s ease, transform .3s ease, background-color .3s;
+}
+
+.display-none {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.btn-hidden {
+  opacity: 0;
+  height: 0;
+  transform: translateY(50px);
+
+}
+
 /* block */
 
 .btn-reset {
@@ -1050,7 +1075,7 @@ body {
   background-color: #3456ff;
   color: var(--white);
   position: relative;
-  transition: transform 5s, background-color .3s;
+  transition: transform .5s, background-color .3s;
 }
 
 .form__calculator-btn:focus {
