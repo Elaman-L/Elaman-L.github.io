@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стирка ковров Aquaplus</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+
+
+  <link rel="stylesheet" href="css/iconfont.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=98f3f4d4-723c-4e01-8f85-e3d8e6ad2d4c&lang=ru_RU"
+    type="text/javascript"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script defer type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__container flex">
+      <a class="logo" href="#" aria-label="Логотип Акваплюс">
+        <img src="img/header-logo.svg" alt=" логотип">
+      </a>
+      <div class="header__navs flex " id="nav-btn">
+        <nav class="nav" aria-label="Навигация по сайту">
+          <ul class="nav__list list-reset flex">
+            <li class="nav__item">
+              <a href="#about" class="nav__item-link link-style">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__item-link link-style">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__item-link link-style">Контакты</a>
+            </li>
+            <li class="nav__item">
+              <a href="#feedback" class="nav__item-link link-style">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="#calculator" class="nav__item-link link-style">Калкулятор</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="btn btn-reset link-style" href="https://wa.me/996501412266" target="_blank">
+          Оставить заявку
+        </a>
+      </div>
+      <button class="burger btn-reset" id="burger" aria-label="Открыть меню">
+        <span class="burger__span"></span>
+        <span class="burger__span"></span>
+        <span class="burger__span"></span>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class=" hero">
+      <div class="container hero__container flex">
+        <div class="hero__content">
+          <h1 class="hero__title gs-reveal">
+            Подарите новую жизнь своему ковру!
+          </h1>
+          <div class="hero__content-description ">
+            <p class="hero__descr section-descr">
+              БЕСПЛАТНЫЙ вывоз и&nbsp;доставка.
+            </p>
+            <p class="hero__descr section-descr">
+              Полностью автоматизированная стирка с&nbsp;новейшим оборудованием и&nbsp;безопасными химикатами.
+            </p>
+            <p class="hero__descr section-descr">
+              80&nbsp;сом за&nbsp;м<sup>2</sup> (цена)
+            </p>
+          </div>
+        </div>
+        <div class="hero__content-down">
+          <div class=" hero__down-list ">
+            <span class="hero__down-icon icon-hero-one"></span>
+            <p class="hero__down-descr section-descr">
+              Все виды чистки ковров и&nbsp;ковровых изделий в&nbsp;Бишкеке
+            </p>
+          </div>
+          <div class="hero__down-list">
+            <span class="hero__down-icon icon-hero-two"></span>
+            <p class="hero__down-descr section-descr">
+              При заказе от&nbsp;1000 сом доставка бесплатно
+            </p>
+          </div>
+          <div class="hero__down-list">
+            <span class="hero__down-icon icon-hero-three"></span>
+            <p class="hero__down-descr section-descr">
+              Удаляем&nbsp;99% пятен с&nbsp;гарантией
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" about" id="about">
+      <div class="container about__container">
+        <h2 class="about__title section-title">О нас</h2>
+        <div class="about__wrap">
+          <div class="about__wrap-left"></div>
+          <div class="about__wrap-right">
+            <div class="about__wrap-right-content">
+              <h3 class="about__right-subtitle subtitle-style">
+                Отличное качество стоит своей цены.
+              </h3>
+              <p class="about__right-descr section-descr">
+                Мы&nbsp;&mdash; команда профессионалов, специализирующаяся на&nbsp;стирке ковров. Наш опыт
+                и&nbsp;экспертиза позволяют нам
+                обеспечить высокое качество услуг, индивидуальный подход к&nbsp;каждому клиенту и&nbsp;использование
+                передовых
+                технологий для достижения отличных результатов. Наша миссия&nbsp;&mdash; сохранить красоту
+                и&nbsp;долговечность ваших
+                ковров на&nbsp;долгие годы.
+              </p>
+            </div>
+            <div class="about__wrap-right-content">
+              <h3 class="about__right-subtitle subtitle-style">Наша миссия.</h3>
+              <p class="about__right-descr section-descr">
+                Мы&nbsp;стремимся сделать процесс стирки ковров максимально удобным и&nbsp;доступным для каждого. Наша
+                цель&nbsp;&mdash; не&nbsp;просто очистить ковры, но&nbsp;и&nbsp;сохранить их&nbsp;красоту
+                и&nbsp;долговечность на&nbsp;долгие годы.
+                Присоединяйтесь к&nbsp;нам и&nbsp;доверьте заботу о&nbsp;ваших коврах профессионалам!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" services" id="services">
+      <div class="container services__container">
+        <h2 class="services__title section-title">Услуги</h2>
+        <div class="services__content swiper" id="swiper-services">
+          <div class="services__content-wrap swiper-wrapper">
+            <div class="services__content-card swiper-slide flex ">
+              <div class="services__content-card-box">
+                <h3 class="services__content-subtitle subtitle-style">Стирка жер төшөков
+                </h3>
+                <ul class="services__content-list list-reset">
+                  <li class="services__content-item section-descr">&ndash; Комплексная чистка жёр тошоков с
+                    применением
+                    современного оборудования</li>
+                  <li class="services__content-item section-descr">&ndash; Эффективное удаление пыли и пятен с
+                    поверхности
+                  </li>
+                  <li class="services__content-item section-descr">&ndash; Тщательное полоскание для полного
+                    удаления
+                    чистящих
+                    компонентов</li>
+                  <li class="services__content-item section-descr">&ndash; Контролируемая сушка для достижения
+                    оптимальной
+                    влажности</li>
+                </ul>
+              </div>
+              <strong class="services__content-strong subtitle-style">от 300 сом/1шт</strong>
+            </div>
+            <div class="services__content-card swiper-slide flex ">
+              <div class="services__content-card-box">
+                <h3 class="services__content-subtitle subtitle-style">Стирка пледов</h3>
+                <ul class="services__content-list list-reset">
+                  <li class="services__content-item section-descr">&ndash; Эффективное удаление пыли, грязи и пятен
+                  </li>
+                  <li class="services__content-item section-descr">&ndash; Использование деликатных моющих средств
+                    для
+                    сохранения
+                    качества ткани</li>
+                  <li class="services__content-item section-descr">&ndash; Комплексное полоскание для полного
+                    удаления
+                    остатков
+                    средств</li>
+                  <li class="services__content-item section-descr">&ndash; Возможность проведения дезинфекции пледов
+                    при
+                    необходимости</li>
+                </ul>
+              </div>
+              <strong class="services__content-strong subtitle-style">от 300 сом/шт</strong>
+            </div>
+            <div class="services__content-card swiper-slide flex ">
+              <div class="services__content-card-box">
+                <h3 class="services__content-subtitle subtitle-style">Стирка штор</h3>
+                <ul class="services__content-list list-reset">
+                  <li class="services__content-item section-descr">&ndash; Бережная чистка штор</li>
+                  <li class="services__content-item section-descr">&ndash;
+                    Используем только экологически чистые моющие средства.</li>
+                  <li class="services__content-item section-descr">&ndash;
+                    Быстрое и качественное обслуживание.</li>
+                  <li class="services__content-item section-descr">&ndash; Вывоз и доставка</li>
+                </ul>
+              </div>
+              <strong class="services__content-strong subtitle-style"> от 150 сом/м²</strong>
+            </div>
+            <div class="services__content-card swiper-slide flex">
+              <div class="services__content-card-box">
+                <h3 class="services__content-subtitle subtitle-style">Стирка ковров</h3>
+                <ul class="services__content-list list-reset">
+                  <li class="services__content-item section-descr">&ndash; Полная чистка ковров с использованием
+                    передовых
+                    технологий</li>
+                  <li class="services__content-item section-descr">&ndash; Эффективное устранение грязи и пятен</li>
+                  <li class="services__content-item section-descr">&ndash; Бережное полоскание для удаления остатков
+                    моющих средств</li>
+                  <li class="services__content-item section-descr">&ndash; Контролируемая сушка для сохранения
+                    качества
+                    материала</li>
+                </ul>
+              </div>
+              <strong class="services__content-strong subtitle-style">80 сом/м²</strong>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="services__wrap-bottom">
+          <h3 class="services__title section-title services__wrap-title gs-reveal">
+            Узнайте стоимость стирки вашего ковра
+          </h3>
+          <div class="services__wrap-link">
+            <a class="services__link link-whatsapp link-style" href="https://wa.me/996501412266" target="_blank"
+              aria-label="Заказать расчет по WhatsApp">Заказать по Whatsapp</a>
+            <a href="tel:996501412266" class="services__link link-coll link-style"
+              aria-label="Позвонить для расчета">Позвонить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" contacts" id="contacts">
+      <div class="container contacts__container">
+        <h2 class="section-title contacts__title">
+          Контакты
+        </h2>
+        <div class="contacts__wrap flex">
+          <address class="address" aria-label="Контактная информация: телефон, адрес, график работы">
+            <ul class="address__list list-reset flex">
+              <li class="address__item flex">
+                <strong class="address__item-strong link-style phone-item">
+                  Телефон:
+                </strong>
+                <a class="address__item-descr contacts-coll link-style" href="tel:+996501412266"
+                  aria-label="Позвонить на номер телефона"> 0(501)-41-22-66</a>
+              </li>
+              <li class="address__item flex">
+                <strong class="address__item-strong link-style addres-item">Адрес:</strong>
+                <p class="address__item-descr address-name section-descr">
+                  г.Бишкек, Свердловский&nbsp;район, ул.Фере, д.33/2
+                </p>
+              </li>
+              <li class="address__item flex">
+                <strong class="address__item-strong link-style grafik-item">График:</strong>
+                <p class="address__item-descr work-time section-descr">Понедельник-воскресенье,
+                  8:30 до&nbsp;20:00</p>
+              </li>
+            </ul>
+            <div class="address__social-list flex">
+              <div class="address__social-item">
+                <a class="address__social-link" href="https://wa.me/996501412266" target="_blank" aria-label="whatsapp">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"
+                    clip-rule="evenodd">
+                    <path fill="#fff"
+                      d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z" />
+                    <path fill="#fff"
+                      d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z" />
+                    <path fill="#cfd8dc"
+                      d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z" />
+                    <path fill="#40c351"
+                      d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z" />
+                    <path fill="#fff" fill-rule="evenodd"
+                      d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+              <div class="address__social-item">
+                <a class="address__social-link" href="https://www.instagram.com/aquaplus_kg?igsh=MWU2YndmNjN3Mmtteg=="
+                  target="_blank" aria-label="instagram">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                    <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899"
+                      gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#fd5" />
+                      <stop offset=".328" stop-color="#ff543f" />
+                      <stop offset=".348" stop-color="#fc5245" />
+                      <stop offset=".504" stop-color="#e64771" />
+                      <stop offset=".643" stop-color="#d53e91" />
+                      <stop offset=".761" stop-color="#cc39a4" />
+                      <stop offset=".841" stop-color="#c837ab" />
+                    </radialGradient>
+                    <path fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+                      d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+                    <radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813"
+                      gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#4168c9" />
+                      <stop offset=".999" stop-color="#4168c9" stop-opacity="0" />
+                    </radialGradient>
+                    <path fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+                      d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+                    <path fill="#fff"
+                      d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z" />
+                    <circle cx="31.5" cy="16.5" r="1.5" fill="#fff" />
+                    <path fill="#fff"
+                      d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </address>
+          <div id="map" class="map" style="width:100%; height:410px;"></div>
+        </div>
+      </div>
+    </section>
+    <section class=" feedback" id="feedback">
+      <div class="feedback__container container ">
+        <h2 class="feedback__title section-title">Отзывы</h2>
+        <div class="feedback__content flex">
+          <div class="feedback__swiper swiper" id="swiper-feedback">
+
+            <div class="swiper-wrapper swipper__wrap">
+              <div class="feedback__card swiper-slide flex">
+                <span class="feedback__card-span subtitle-style">Анастасия</span>
+                <p class="feedback__card-descr section-descr">
+                  Большое спасибо за отличную стирку ковров! Результат превзошел ожидания. Очень доволен качеством и
+                  скоростью работы. Рекомендую!
+                </p>
+              </div>
+              <div class="feedback__card swiper-slide flex">
+                <span class="feedback__card-span subtitle-style">Насыйкат</span>
+                <p class="feedback__card-descr section-descr">
+                  Сиздин компанияңыздын кызмат көрсөтүүсүнө ыраазычылык билдирем. Коверлорумду жогорку сапатта жууп
+                  бердиңиздер. Процесс тез жана натыйжалуу болду. Жыйынтыгында коверлорум жаңыдай болуп калды. Сапаттуу
+                  кызмат көрсөткөнүңүздөр үчүн чоң рахмат! Сиздер менен иштешүү абдан жагымдуу болду.
+                </p>
+              </div>
+              <div class="feedback__card swiper-slide flex">
+                <span class="feedback__card-span subtitle-style">Дилбара</span>
+                <p class="feedback__card-descr section-descr">
+                  Здравствуйте еще раз, ковры в идеальном состоянии, спасибо вам большое за вашу работу
+                  ❤ успехов вам👍🏻
+                </p>
+              </div>
+              <div class="feedback__card swiper-slide flex">
+                <span class="feedback__card-span subtitle-style">Айпери</span>
+                <p class="feedback__card-descr section-descr">
+                  Хочу выразить огромную благодарность команде Акваплюс за&nbsp;профессиональную стирку моих ковров!
+                  Услуги были выполнены на&nbsp;высшем уровне.Ковры забрали и&nbsp;привезли точно в&nbsp;срок. Ковры
+                  стали чистыми, свежими и&nbsp;без единого пятна.
+                  Я&nbsp;очень довольна результатом и&nbsp;буду рекомендовать Акваплюс всем!
+                  5&nbsp;звезд из&nbsp;5!
+                </p>
+              </div>
+              <div class="feedback__card swiper-slide flex">
+                <span class="feedback__card-span subtitle-style">Кыял</span>
+                <p class="feedback__card-descr section-descr">
+                  Сиздин компанияңызга оперативдүү жана сапаттуу ишиңиздер үчүн чоң рахмат. Коверлорумду сонун кылып
+                  жуугансыздар, үй&nbsp;жаркырап калды. Бул мен үчүн абдан маанилүү болду! Эми кийинки жолу кайра
+                  кайрыларымды билем! Рахмат!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="feedback__swiper-btn swiper-button-prev"></div>
+            <div class="feedback__swiper-btn swiper-button-next"></div>
+          </div>
+          <div class="feedback__strie  strie__anim-list flex">
+            <div class="feedback__strie-circle strie__anim-item"></div>
+            <div class="feedback__strie-circle strie__anim-item"></div>
+            <div class="feedback__strie-circle strie__anim-item"></div>
+          </div>
+          <div class="accordion flex">
+            <h2 class="accordion__title section-title gs-reveal">Часто задаваемые вопросы</h2>
+            <p class="accordion__descr section-descr gs-reveal">
+              Мы&nbsp;постарались сэкономить ваше время, ответив на&nbsp;самые часто задаваемые вопросы. Если у&nbsp;вас
+              еще остались вопросы, не&nbsp;стесняйтесь задавать, мы&nbsp;всегда рады общению с&nbsp;вами.
+            </p>
+            <div class="accordion__wrap flex">
+              <ul class="accordion__list list-reset" id="accordion-1">
+                <li class="accordion-item">
+                  <input id="s1" class="accordion__item-inp" type="checkbox">
+                  <label for="s1" class="accordion__item-label">Как часто рекомендуется чистить
+                    ковры?</label>
+                  <p class="accordion__item-descr section-descr">Рекомендуется пылесосить ковры раз в&nbsp;неделю или
+                    каждый день
+                    в&nbsp;зависимости от&nbsp;интенсивности использования. Мытье рекомендуется каждые
+                    3&ndash;6&nbsp;месяцев, а&nbsp;в&nbsp;случае присутствия домашних животных, детей или интенсивного
+                    пешеходного движения чистку следует проводить чаще.</p>
+                </li>
+                <li class="accordion-item">
+                  <input id="s2" class="accordion__item-inp" type="checkbox">
+                  <label for="s2" class="accordion__item-label">Сколько времени занимает чистка
+                    ковра?</label>
+                  <p class="accordion__item-descr section-descr">Стирка ковров занимает
+                    от&nbsp;3&nbsp;до&nbsp;4&nbsp;дней.Это включает
+                    в&nbsp;себя сбор ковров из&nbsp;вашего дома и&nbsp;возврат чистых ковров. Однако некоторым коврам
+                    может потребоваться дополнительное время для высыхания и&nbsp;обработки определенных пятен,
+                    которые
+                    могут потребовать повторной стирки.
+                    Возможна экспресс стирка за&nbsp;1-2&nbsp;дня.</p>
+                </li>
+                <li class="accordion-item">
+                  <input id="s3" class="accordion__item-inp" type="checkbox">
+                  <label for="s3" class="accordion__item-label">Как вы сушите ковры?</label>
+                  <p class="accordion__item-descr section-descr">После всех процедур стирки ковер помещается
+                    в&nbsp;специальную
+                    прядильную машину. Процесс отжима происходит примерно так&nbsp;же, как в&nbsp;обычной стиральной
+                    машине. Ковер становится сухим на&nbsp;90-95%. После этого все ковры сушатся в&nbsp;специальном
+                    закрытом помещении, оборудованном системой вытяжной вентиляции. Температура воздуха регулируется
+                    так,
+                    чтобы обеспечить идеальную сушку ковра. Этот метод актуален для мокрых ковров после сезона дождей
+                    или
+                    наводнений .</p>
+                </li>
+                <li class="accordion-item">
+                  <input id="s4" class="accordion__item-inp" type="checkbox">
+                  <label for="s4" class="accordion__item-label">Безопасно ли использовать химические
+                    средства для чистки
+                    ковров?</label>
+                  <p class="accordion__item-descr section-descr">Да, все химические средства для чистки ковров,
+                    которые
+                    мы&nbsp;используем, безопасны для домашних животных, детей и&nbsp;ваших ковров. Мы&nbsp;выбираем
+                    только высококачественную, экологически чистую продукцию, которая
+                    не&nbsp;оставляет следов и&nbsp;не&nbsp;вызывает аллергических реакций.</p>
+                </li>
+                <li class="accordion-item">
+                  <input id="s5" class="accordion__item-inp" type="checkbox">
+                  <label for="s5" class="accordion__item-label">Могу ли я заказать чистку ковров в удобное
+                    для меня время?</label>
+                  <p class="accordion__item-descr section-descr">Конечно вы&nbsp;можете! Мы&nbsp;работаем
+                    по&nbsp;гибкому графику и&nbsp;можем организовать сбор и&nbsp;доставку в&nbsp;удобное для вас
+                    время. <a class="accordion__item-link" href="tel:+996501412266"
+                      aria-label="позвонить на номер телефона">Просто
+                      свяжитесь с&nbsp;нами</a> , чтобы согласовать детали</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" calculator" id="calculator">
+      <div class="container calculator__container">
+        <h2 class="calculator__title section-title">Калькулятор</h2>
+        <strong class="calculator__strong section-descr gs-reveal">Этот калькулятор предоставляет следующие
+          возможности:</strong>
+        <ul class="calculator__list list-reset">
+          <li class="calculator__item section-descr gs-reveal">Добавлять ковры с указанием ширины и высоты..</li>
+          <li class="calculator__item section-descr gs-reveal">Вычислять площадь каждого ковра.</li>
+          <li class="calculator__item section-descr gs-reveal">Отображать общую площадь всех ковров.</li>
+          <li class="calculator__item section-descr gs-reveal">Вычислять стоимость всех ковров (80&nbsp;сом
+            за&nbsp;м&sup2;).</li>
+        </ul>
+        <div class="calculator__wrap flex">
+          <div class="calculator__wrap-left">
+            <form class="form__calculator" id="add-form" action="#">
+              <h3 class="form__calculator-title subtitle-style">Калькулятор</h3>
+              <input class="form__calculator-input" type="number" id="width-inp" placeholder="Длина ковра">
+              <input class="form__calculator-input" type="number" id="height-inp" placeholder="Ширина ковра">
+              <div class="form__calculator-buttons flex">
+                <button class="form__calculator-btn add-button btn-reset  link-style" id="add-btn"
+                  aria-label="добавить ковер">Добавить</button>
+                <button class="form__calculator-btn remove-button btn-reset  link-style" id="remove-btn"
+                  aria-label="очистить списрк ковров">Очистить</button>
+              </div>
+            </form>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th data-column="carpets-number" class="carpets-number">кол-во</th>
+                  <th data-column="carpets-width" class="width">Ширина</th>
+                  <th data-column="carpets-height" class="height">Длина</th>
+                  <th data-column="carpets-square" class="square">Площадь</th>
+                  <th data-column="carpets-actions" class="actions">Действие</th>
+                </tr>
+              </thead>
+              <tbody id="carpets-tables">
+              </tbody>
+            </table>
+          </div>
+          <div class="calculator__wrap-right">
+            <div class="calculator__right-content">
+              <strong class="calculator__right-subtitle section-descr">Добавление ковра:</strong>
+              <p class="calculator__right-descr section-descr">Введите ширину ковра в поле <span>"Ширина ковра"</span>.
+              </p>
+              <p class="calculator__right-descr section-descr">Введите высоту ковра в поле <span>"Высота ковра"</span>.
+              </p>
+              <p class="calculator__right-descr section-descr">Нажмите на кнопку <span>"Добавить"</span>.</p>
+            </div>
+            <div class="calculator__right-content">
+              <strong class="calculator__right-subtitle section-descr">Удаление ковра:</strong>
+              <p class="calculator__right-descr section-descr">Следуйте инструкциям выше, чтобы добавить ковер в
+                таблицу.</p>
+              <p class="calculator__right-descr section-descr">Нажмите <span>&laquo;Удалить&raquo;</span>, чтобы удалить
+                последний
+                добавленный ковер из&nbsp;таблицы.</p>
+            </div>
+            <div class="calculator__right-content">
+              <strong class="calculator__right-subtitle section-descr">Очистка таблицы:</strong>
+              <p class="calculator__right-descr section-descr">Нажмите <span>"Очистить"</span>, чтобы удалить все ковры
+                из
+                таблицы и сбросить
+                расчеты.</p>
+            </div>
+            <div class="calculator__right-content">
+              <strong class="calculator__right-subtitle section-descr">Просмотр общей информации:</strong>
+              <p class="calculator__right-descr section-descr">Общая площадь всех ковров автоматически отображается в
+                таблице.</p>
+              <p class="calculator__right-descr section-descr">Общая стоимость всех ковров (при цене 80 сом за
+                квадратный метр)
+                автоматически отображается.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__wrap flex">
+        <div class="footer__wrap-left">
+          <ul class="footer__list list-reset flex">
+            <li class="footer__item link-style">
+              <a href="#about" class="footer__item-link link-style">О нас</a>
+            </li>
+            <li class="footer__item link-style">
+              <a href="#services" class="footer__item-link link-style">Услуги</a>
+            </li>
+            <li class="footer__item link-style">
+              <a href="#contacts" class="footer__item-link link-style">Контакты</a>
+            </li>
+            <li class="footer__item link-style">
+              <a href="#feedback" class="footer__item-link link-style">Отзывы</a>
+            </li>
+            <li class="footer__item link-style">
+              <a href="#calculator" class="footer__item-link link-style">Калкулятор</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__wrap-middle">
+          <a class="footer__logo-link" href="#">
+            <img class="footer__logo" src="img/footer-logo.svg" alt="логотип Акваплюс" aria-label="Логотип Акваплюс">
+          </a>
+        </div>
+        <div class="footer__wrap-right flex">
+          <div class="footer__wrap-social flex">
+            <a class="footer__wrap-link icon-whatsapp" href="https://wa.me/996501412266" target="_blank"
+              aria-label="whatsapp"></a>
+            <a class="footer__wrap-link icon-instagram"
+              href="https://www.instagram.com/aquaplus_kg?igsh=MWU2YndmNjN3Mmtteg==" target="_blank"
+              aria-label="социальная страница instagram"></a>
+            <a class="footer__wrap-link icon-phone" href="tel:996501412266"
+              aria-label="позвонить на номер телефона"></a>
+          </div>
+          <div class="footer__wrap-madeby">
+            <p class="footer__wrap-mabedy-descr section-descr">
+              Разработка сайта: <a class="footer__wrap-mabedy-link"
+                href="https://www.instagram.com/raimkulov_11?igsh=cDA4NGhud3ZwZmZ6"
+                aria-label="социальная страница instagram разработчика сайта">Raimkulov.E</a>
+            </p>
+          </div>
+          <div class="footer__wrap-copyright">
+            <p class="footer__copyright-descr section-descr">
+              © 2024 AQUA PLUS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="preloader">
+    <span class="loader">
+      <span class="loader-inner"></span>
+      </span>
+  </div>
+</body>
+</html>
